@@ -12,7 +12,7 @@ function App() {
     <Router>
       <Barra />
       <Route path='/' exact component = {Login} />
-      <Route path='/index' exact component = {Index} />
+      <Route path='/principal' exact component = {Index} />
       <Route path='/registrarVendedor' exact component = {RegistrarVendedor} />
       <Route path='/registrarSucursal' exact component = {RegistrarSucursal} />
       <Route path='/verVendedores' exact component = {VerVendedores} />

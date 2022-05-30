@@ -75,7 +75,7 @@ export default function SignInSide() {
           timer: 1500,
         });
 
-        window.location.href = "/index";
+        window.location.href = "/principal";
     }
   };
 
